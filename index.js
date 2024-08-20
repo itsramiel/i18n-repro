@@ -28,7 +28,8 @@ i18next
   .then(() => {
     console.log(i18next.t("userId"));
 
-    loadPath = "https://jsonplaceholder.typicode.com/posts/1";
+    i18next.services.backendConnector.backend.options.loadPath =
+      "https://jsonplaceholder.typicode.com/posts/1";
 
     setTimeout(() => {
       console.log("will reload");
