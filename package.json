@@ -1,0 +1,10 @@
+{
+  "name": "i18n-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "i18next": "^23.14.0",
+    "i18next-http-backend": "^2.6.0"
+  }
+}
